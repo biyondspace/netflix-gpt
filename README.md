@@ -34,7 +34,10 @@
 - Build Movie Card
 - TMDB Image CDN URL
 - Made the Browser page amazing with Tailwind Css
-- UsePopularMovies, useTopRatedmovies, useTrendingmovies and useUpcomingMovies Custome hook
+- UsePopularMovies, useTopRatedmovies, useTrendingmovies and useUpcomingMovies Custom hook
+- GPT search page
+- GPT search Bar
+- (FEATURE)Add Multi Langauge feature in our page
 
 # Features
 
