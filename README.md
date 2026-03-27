@@ -38,6 +38,16 @@
 - GPT search page
 - GPT search Bar
 - (FEATURE)Add Multi Langauge feature in our page
+- Get open AI Api key
+- Gpt search API call
+- Fetched Gpt Movie Suggestions from TMDB
+- Created Gpt Slice added data
+- Reused movie list component to make movie suggestion container
+- Made Error page
+- Memoization
+- Added .env file
+- Adding .env file to gitignore
+- Made site Responsive
 
 # Features
 

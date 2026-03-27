@@ -27,7 +27,6 @@ const GptSearchBar = () => {
 
   const handleGptSearchClick = async () => {
     try {
-      
       // Make an Api call to Gpt Api and get movie results
       const gptQuery =
         "Act as a movie recommendation system and suggest some movies for the query :" +
@@ -64,16 +63,15 @@ const GptSearchBar = () => {
       setError(true);
       seterrorMessage("API Failed. Please try again.");
     }
-
   };
   if (error) {
     return <ErrorPage message={errorMessage} onRetry={() => setError(false)} />;
   }
 
   return (
-    <div className="pt-[15%] flex justify-center">
+    <div className="pt-[65%] md:pt-[15%] flex justify-center">
       <form
-        className="w-1/2 grid grid-cols-12 bg-black"
+        className="w-full md:w-1/2 grid grid-cols-12 bg-black"
         onSubmit={(e) => e.preventDefault()}
       >
         <input
